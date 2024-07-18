@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="login.css">
+</head>
+<body class="container-fluid">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="login.js"></script>
+    <div class="row main">
+        <div id="carouselExampleSlidesOnly" class=" m-0 b-0 p-0 col-12 col-lg-6 col-xl-6 img carousel slide " data-bs-ride="carousel" data-bs-ride="carousel" data-bs-interval="1500">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="https://wpschoolpress.com/wp-content/uploads/2023/03/student-management-system.png"  class="d-block w-100 imgs" alt="turn on internet">
+              </div>
+              <div class="carousel-item">
+                <img src="https://www.sarvika.com/wp-content/uploads/2022/02/Student-Management-System.png" class="d-block w-100 imgs" alt="turn on internet">
+              </div>
+              <div class="carousel-item">
+                <img src="https://storage.googleapis.com/profit-prod/wp-content/uploads/2021/03/3a50174d-online-to-do-list.jpg"  class="d-block w-100 imgs" alt="turn on internet">
+              </div>
+            </div>
+          </div>
+        <div class="col-12 col-lg-6 col-xl-6 form">
+            <div class="row p-5 pb-1">
+                <span class="col-12 text">A Cloud place to manage all your students  from any where, any device, and any time</span>
+            </div>
+            <form class="p-5 m-3 mt-1" action="studenttask.html">
+              <div class="mb-3">
+                <span class="role">Student</span>
+              </div>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label" aria-placeholder="Eg:713521IT007">Student ID</label>
+                  <input type="text" placeholder="Eg:713521IT007" class="form-control" id="exampleInputSudentID">
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label">Password</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                
+                <button type="submit" class="btn btn-primary">Login</button>
+                <div class="mb-3 mt-3">
+<a  data-bs-toggle="modal" data-bs-target="#exampleModal" href="">forgot password</a>
+
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Password reset</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <form>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Email address</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  <div id="emailHelp" class="form-text">you will receive mail to reset password</div>
+                </div>
+            </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" data-bs-dismiss="modal" class="btn btn-primary">Reset</button>
+        </div>
+      </div>
+    </div>
+  </div>       
+                  <div class="mb-2 mt-2">
+                    <a href="signup.html">dont have an account, signup</a>
+                  </div>
+                  <div class="mb-2">
+                    <a href="facultylogin.html">login as faculty</a>
+                  </div>
+                
+              </form>
+        </div>
+    </div>
+</body>
+</html>

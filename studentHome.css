@@ -1,0 +1,81 @@
+.main{
+    background-image: url("https://miro.medium.com/v2/resize:fit:1400/0*vBn2DS35s0mYrzlb");
+    height: 100vh;
+    width: auto;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.main1{
+    background-image: url("https://static.vecteezy.com/system/resources/thumbnails/028/634/237/small_2x/a-classroom-with-a-blackboard-desk-pens-and-school-supplies-free-photo.jpg");
+    height: 100vh;
+    width: auto;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.navhead{
+    opacity: 80%;
+}
+.time{
+    font-weight: 700;
+}
+.task{
+    font-weight: 700;
+}
+.tablemain{
+    display: flex;
+    overflow-x: scroll;
+}
+.tablemain::-webkit-scrollbar{
+    display: none;
+}
+.tableedit{
+    width: auto;
+    margin-top: 10%;
+    opacity: 80%;
+}
+
+.break{
+    text-align: center;
+}
+.acca{
+    font-weight: 700;
+}
+.taskcard{
+    background-color: white;
+    opacity: 80%;
+    border-radius: 10px;
+    display: flex;
+    gap: 8%;
+    flex-direction: column;
+}
+.taskcard1{
+    background-color: rgb(168, 166, 243);
+    opacity: 90%;
+    border-radius: 10px;
+    display: flex;
+    gap: 8%;
+    flex-direction: column;
+}
+.taskmain{
+ display: flex;
+ gap: 5vh;
+ justify-content: center;
+ overflow-y: scroll; 
+ height: 90vh;
+}
+.tableopa{
+    opacity: 80%;
+}
+.promain{
+    background-color: white;
+    opacity: 90%;
+}
+.procen{
+    display: flex;
+    width: auto;
+    justify-content: center;
+}
+.bb{
+    opacity: 100%;
+    z-index: 1;
+}
